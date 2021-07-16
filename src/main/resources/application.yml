@@ -1,0 +1,19 @@
+#服务器配置
+server:
+  port: 9876
+
+#swagger公共信息
+swagger:
+  enable: true
+  base-package: com.test.controller
+  base-path: /
+  title: 接口文档系统
+  description: 接口文档系统
+  version: 1.0.0
+  license: Powered By test
+  license-url: http://www.test.com/
+  terms-of-service-url: http://www.test.com/
+  contact:
+    name: admin
+    email: admin@test.com/
+    url: http://www.test.com/
